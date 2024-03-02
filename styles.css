@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.background {
+    background: linear-gradient(rgba(2, 14, 32, 0.747), rgb(1, 1, 5));
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.cabeçalho-link a {
+    color: rgb(241, 235, 255);
+    font-size: 17px;
+}
+
+.cabeçalho-link a:hover {
+    color: rgb(112, 112, 175);
+    transition: 0.4s;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    /* border: 1px solid #ffffff3a; */
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font: 14px;
+    cursor: pointer;
+}
+
+button {
+    color: aliceblue;
+    background: transparent;
+    border: 1px solid #aea3ca;
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9988c7;
+    color: black;
+    transition: 0.5s;
+}
+
+.container-text {
+    padding: 150px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.text h1 {
+    color: rgba(213, 213, 255, 0.733);
+    font-size: 5rem;
+}
+.text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+
+.text h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.text p {
+    color: rgb(209, 199, 233);
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text p span {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.subtexto p{
+    font-size: 1.3rem;
+}
+
+
+.redes-sociais {
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    padding-top: 40px;
+    font-size: 3rem;
+    color: rgba(215, 206, 255, 0.808);
+    padding: 10px;
+}
+.redes-sociais a:hover {
+    color: azure;
+    transition: 0.5s;
+}
+
+#Btn2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.creditos {
+    opacity: 60%;
+    color: rgba(209, 197, 238, 0.568);
+    font-weight: 500;
+    text-align: end;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+ }
+ .creditos > a {
+    color: rgb(249, 248, 255);
+ }
+
+ .textoMeusProjetos {
+    font-size: 5px;
+ }
+
+ .fa-solid {
+    padding-left: 10px;
+ }
+
+
+
+/* New */
+
+
+
+/* Keyframes */
+/* 
+@keyframes aberturaAnimacao {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .animate-this-element {
+    animation: aberturaAnimacao 2s forwards;
+  }
+
+
+  @keyframes animacaoTexto {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacao {
+    animation: animacaoTexto 4s forwards;
+  }
+
+
+  @keyframes animacaoTextoCredito {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacaoCred {
+    animation: animacaoTextoCredito 7s forwards;
+  }
+
+  @keyframes animacaoTextoMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacaoMenu {
+    animation: animacaoTextoMenu 10s forwards;
+  }
+
+  @keyframes wipe-cinematic-in {
+    0% {
+      clip-path: inset(100% 0 100% 0);
+    }
+    30%, 70% {
+      clip-path: inset(10% 0 10% 0);
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  .wipecinematic {
+    animation-name: wipe-cinematic-in;
+    animation-timing-function: ease-in-out; 
+    animation-duration: 2.5s;
+  } */
